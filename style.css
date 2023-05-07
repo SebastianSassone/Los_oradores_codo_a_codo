@@ -1,0 +1,576 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+body{
+    max-width: 1700px;
+}
+
+/* Menu */
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #353a40;
+    height: 100px;
+    width: 100%;
+}
+
+.img_nav{
+    display: flex;
+    width: 26%;
+    align-items: center;
+}
+
+.img_nav img{
+    height: 80px;
+    width: 160px;
+}
+
+.img_nav p{
+    color: white;
+    font-size: 25px;
+}
+
+.nav_menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    color: white;
+    width: 60%;
+    font-size: 18px;
+}
+
+.nav_menu ul li a{
+    color: #98a0ad;
+    text-decoration: none;
+}
+
+.nav_menu ul li{
+    cursor: pointer;
+}
+
+.nav_menu ul li:hover{
+    transform: scale(1.09);
+    transition: 1s;
+}
+
+.li_gris{
+    color: #98a0ad;
+}
+
+.li_verde{
+    color: #29b043;
+}
+
+/* Portada */
+.section_portada{
+    display: flex;
+    background-image: url('img/hawaii.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.velo{
+    position: relative;
+    background-color: rgba(60, 60, 60, 0.541);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.text_portada{
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: end;
+    height: 50%;
+    padding: 10%;
+}
+
+.h2_portada{
+    color: white;
+}
+
+.p_portada{
+    color: white;
+}
+
+.buttons_portada{
+    display: flex;
+}
+
+.buttons_port_1{
+    padding: 10px;
+    color: white;
+    background-color: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.buttons_port_2{
+    padding: 10px;
+    color: white;
+    background-color: #29b043;
+    border-radius: 5px;
+}
+
+/* Oradores */
+
+.section_oradores{
+    height: 890px;
+    background-color: white;
+}
+
+.text_oradoradores{
+    color: black;  
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;  
+}
+
+.text_oradoradores_p_1{
+    font-size: 20px;
+}
+
+.text_oradoradores_p_2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cards_oradores{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 800px;
+}
+
+.card_orador{
+    height: 700px;
+    width: 450px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+}
+
+.img_card_1{
+    height: 450px;
+    width: 450px;
+    background-image: url('img/steve.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_card_2{
+    height: 450px;
+    width: 450px;
+    background-image: url('img/bill.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_card_3{
+    height: 450px;
+    width: 450px;
+    background-image: url('img/ada.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_orador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.element_orador{
+    display: flex;
+}
+
+.lenguaje_orador_1{
+   color: white;
+   background-color: #fec106;
+   padding: 5px;
+   border-radius: 3px; 
+}
+
+.lenguaje_orador_2{
+   color: white;
+   background-color: #17a2b7;
+   padding: 5px;
+   border-radius: 3px;
+   margin-left: 4px;
+}
+
+.avilidades_orador_1{
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #353a40;
+    
+}
+
+.avilidades_orador_2{
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: red;
+    margin-left: 4px;
+}
+
+.parrafo_orador{
+    margin-top: 20px;
+}
+
+/* Bs As */
+
+.section_bsas{
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_img{
+    background-image: url('img/ba3.jpg');
+    width: 49.9%;
+    height: 100%;
+}
+
+.div_text_bsas{
+    width: 50%;
+    background-color: #353a40;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.h2_bsas{
+    color: white;    
+    padding: 10px;
+}
+
+.p_bsas{
+    color: white;
+    padding: 10px;
+}
+
+.butonn_bsas{
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid white;
+    width: 110px;
+    margin-left: 8px;
+}
+
+/* Form */
+
+.section_form{
+    height: 550px;
+}
+
+.div_text_orador{
+    color: black;  
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;  
+}
+
+.div_text_orador_p_1{
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.div_text_orador_p_2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form_orador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.p_anotate{
+    display: flex;
+    flex-direction: row;
+    width: 49.5%;
+}
+
+.p_subrayado{
+    border-bottom: 2px dotted black;
+}
+
+.form_orador input{
+    color: #98a0ad;
+    font-size: 15px;
+    border: 1px solid #cfd4da;
+    padding: 7px;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.form_orador textarea{
+    color: #98a0ad;
+    font-size: 23px;
+    border: 1px solid #cfd4da;
+    height: 150px;
+    width: 48.5%;
+    padding: 10px;
+    margin-top: -0.5%;
+    border-radius: 5px;
+}
+
+.nobre_apelli_input{
+    display: flex;
+    justify-content: space-evenly;
+    width: 52%;
+    margin-right: 0.5%;
+}
+
+.p_recordaorio{
+    color: #98a0ad;
+    margin-right: 31%;
+}
+
+.form_orador button{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #96c93e;
+    font-size: 20px;
+    width: 50%;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer{
+ width: 100%;
+ height: 100px;
+ background-color: #1e516e;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.footer_elements{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ justify-content: space-between;  
+ width: 90%; 
+}
+
+.footer p{
+ color: white;
+}
+
+@media only screen and (max-width: 600px)  {
+
+    body{
+        background-color: white;
+        max-width: 600px;
+        min-width: 100px
+    }
+
+    /* Menu */
+    
+    .nav_menu{
+        display: flex;
+        flex-direction: column;
+        background-color: #353a40;
+        height: 400px;
+        width: 100%;
+    }
+    
+    .img_nav{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .img_nav img{
+        height: 80px;
+        width: 160px;
+    }
+    
+    .img_nav p{
+        color: white;
+        font-size: 25px;
+    }
+    
+    .nav_menu ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+        width: 100%;
+        height: 300px;
+        font-size: 18px;
+        background-color: #353a40;
+    }
+    
+    .nav_menu ul li a{
+        color: #98a0ad;
+        text-decoration: none;
+    }
+
+    /* Section portada */
+
+    .velo{
+        height: 350px;
+    }
+    
+    .text_portada{
+        height: 100%;
+        width: 100%;
+        padding: 2%;
+    }
+
+    /* Section oradores */
+    
+    .section_oradores{ 
+        height: 2100px;
+        flex-direction: column;
+    }
+    
+    .cards_oradores{
+        height: 2000px;
+        flex-direction: column;
+    }
+    
+    .card_orador{
+        height: 620px;
+        width: 250px;
+    }
+    
+    .img_card_1{
+        height: 250px;
+        width: 250px;
+    }
+    
+    .img_card_2{
+       height: 250px;
+       width: 250px;
+    }
+    
+    .img_card_3{
+       height: 250px;
+       width: 250px;
+    }
+    
+    /* Section BsAs */
+
+    .section_bsas{
+        height: 730px;
+        flex-direction: column;
+    }
+    
+    .div_img{
+        background-image: url('img/ba3.jpg');
+        width: 100%;
+        height: 49.9%;
+    }
+    
+    .div_text_bsas{
+        width: 100%;
+        background-color: #353a40;
+        height: 50%;
+        display: flex;
+        align-items: center;
+    }
+    
+    /* Section form */
+
+    .section_form{
+        height: 600px;
+    }
+    
+    .form_orador{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 450px;
+    }
+    
+    .p_anotate{
+        flex-direction: column;
+        width: 60%;
+        height: 70px;
+    }
+    
+    .p_subrayado{
+        width: 100px;
+        border-bottom: 2px dotted black;
+    }
+    
+    .form_orador input{
+        color: #98a0ad;
+        font-size: 15px;
+        border: 1px solid #cfd4da;
+        padding: 7px;
+        width: 45%;
+        border-radius: 5px;
+    }
+    
+    .form_orador textarea{
+        color: #98a0ad;
+        font-size: 23px;
+        border: 1px solid #cfd4da;
+        height: 150px;
+        width: 48.5%;
+        padding: 10px;
+        margin-top: -0.5%;
+        border-radius: 5px;
+    }
+    
+    .nobre_apelli_input{
+        display: flex;
+        justify-content: space-evenly;
+        width: 52%;
+        margin-right: 0.5%;
+    }
+    
+    .p_recordaorio{
+        color: #98a0ad;
+        margin-right: 0%;
+    }
+    
+    /* Footer */
+
+    .footer{
+        width: 100%;
+        height: 350px;
+        background-color: #1e516e;
+       }
+       
+       .footer_elements{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly; 
+        padding: 10%; 
+        width: 100%;
+        height: 100%; 
+       }   
+    }
