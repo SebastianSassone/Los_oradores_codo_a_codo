@@ -70,7 +70,7 @@ body{
     color: #98a0ad;
 }
 
-.li_verde{
+#li_verde_a{
     color: #29b043;
 }
 
@@ -367,6 +367,174 @@ body{
     cursor: pointer;
 }
 
+/* Section comprar ticket  */
+
+.comprar_tiquet{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_categorias{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+}
+
+
+.Estudiante{
+    height: 200px;
+    width: 250px;
+    margin-right: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #007bff;
+}
+
+.Trainee{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #17a2b8;
+}
+
+.Junior{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    margin-left: 3px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #ffc107;
+}
+
+.p_venta{
+    font-size: 13px;
+}
+
+.valor_ticket{
+    font-size: 30px;
+}
+
+.form_compra_ticket{
+    height: 500px;
+    width: 45%;
+}
+
+.form_compra_ticket input{  
+    color: #98a0ad;
+    font-size: 15px;
+    border: 1px solid #cfd4da;
+    padding: 7px;
+    width: 47%;
+    border-radius: 5px;
+    }
+
+.div_nom_apell{
+    width: 100%;
+} 
+
+.apellido{
+    margin-left: 5px;
+}
+
+.div_correo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+
+.div_correo input{
+    width: 97.5%;
+    padding: 7px;
+}
+
+.div_cant_opci {
+    display: flex;
+    height: 55px;
+    width: 100%;
+    justify-content: space-around;
+} 
+
+.cantidad{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.cantidad input{
+    width: 93.5%;
+}
+
+.categoria{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 50%;
+}
+
+.categoria select{
+    width: 99%;
+    padding: 7px;
+    border: 1px solid #cfd4da;
+    outline: none;
+    border-radius: 5px;
+}
+
+.div_total_pagar{
+    background-color: #cce5ff;
+}
+
+.total_pagar{
+    background-color: none;
+    color: #004085;
+    background-color: #cce5ff;
+    padding: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 96%;
+}
+
+.total_pagar input{
+    outline: none;
+    border: none;
+    color: #004085;
+    background-color: #cce5ff;
+    
+}
+
+.buttons_comprar_ticket{
+    display: flex;
+    justify-content: space-between;
+    width: 99.7%;
+}
+
+.buttons_comprar_ticket div{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #96c93e;
+    font-size: 18px;
+    width: 47%;
+    height: 38px;
+    border: none;
+    cursor: pointer;
+}
+
+   
 /* Footer */
 
 .footer{

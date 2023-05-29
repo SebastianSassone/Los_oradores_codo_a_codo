@@ -16,7 +16,7 @@
             <li class="li_gris"><a href="#section_oradores">Los oradores</a></li>
             <li class="li_gris">El lugar y la fecha</li>
             <li class="li_gris"><a href="#section_form">Conviertete en orador</a></li>
-            <li class="li_verde">Comprar tickets</li>
+            <li class="li_verde"><a href="#comprar_tiquet" id="li_verde_a">Comprar tickets</a></li>
         </ul>
     </nav>
     <section class="section_portada" id="section_portada">
@@ -111,6 +111,64 @@
             <button>Enviar</button>
         </form>
     </section>
+    <section class="comprar_tiquet" id="comprar_tiquet">
+        <div class="div_categorias">
+            <div class="Estudiante">
+                    <p>Estudiante</p>
+                    <p>Tiene un descuento</p>
+                    <p>80%</p> 
+                    <p>*presentar documentacion</p></div>
+            <div class="Trainee">
+                    <p>Trainee</p>
+                    <p>Tiene un descuento</p>
+                    <p>80%</p> 
+                    <p>*presentar documentacion</p></div>
+            <div class="Junior">
+                    <p>Junior</p>
+                    <p>Tiene un descuento</p>
+                    <p>80%</p> 
+                    <p>*presentar documentacion</p></div>
+        </div>
+        <p class="p_venta">VENTA</p>
+        <h1 class="valor_ticket">VALOR DEL TICKET $200</h1>
+        <form class="form_compra_ticket">
+            <div class="div_nom_apell">
+                <label for="nombre"></label>
+                <input type="text" placeholder="Nombre" id="nombre">
+                <label for="apellido"></label>
+                <input type="text" placeholder="Apellido" id="apellido" class="apellido">
+                <label for="email"></label>
+            </div>  
+            <div class="div_correo">   
+                <input type="email" placeholder="Correo" id="correo">
+                <label for="email"></label>
+            </div>
+            <div class="div_cant_opci">
+                <div class="cantidad">
+                    <label for="number">Cantidad</label>   
+                    <input type="number" placeholder="Cantidad" id="cantidad" maxnum="1">
+                </div>
+                <div class="categoria">           
+                    <label for="select">Categoria</label>
+                        <select name="select" id="select">
+                        <option value="Estudiante">Estudiante</option>
+                        <option value="Trainee">Trainee</option>
+                        <option value="Junior">Junior</option>
+                        <option value="Ninguna">Ninguna</option>
+                    </select>
+                </div>
+            </div>    
+            <div class="total_pagar">
+                <label for="total_pagar">Total a pagar:</label>
+                <input type="text" id="total_pagar" value="$200" readonly>
+            </div>
+           <div class="buttons_comprar_ticket">
+            <div id="borrar">Borrar</div>
+            <div id="resumen">Resumen</div>
+           </div> 
+        </form>
+
+    </section>
     <footer class="footer">
         <div class="footer_elements">
         <p>Preguntas frecuentes</p>
@@ -123,4 +181,5 @@
         </div>
     </footer>
 </body>
+<script src="js/script.js"></script>
 </html>
