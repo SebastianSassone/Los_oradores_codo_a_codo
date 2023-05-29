@@ -678,7 +678,7 @@ body{
     /* Section form */
 
     .section_form{
-        height: 600px;
+        height: 650px;
     }
     
     .form_orador{
@@ -692,7 +692,7 @@ body{
     .p_anotate{
         flex-direction: column;
         width: 60%;
-        height: 70px;
+        height: 140px;
     }
     
     .p_subrayado{
@@ -747,7 +747,6 @@ body{
         flex-direction: column;
         height: 590px;
         justify-content: space-evenly;
-        border: 1px solid red;
      }
 
      .Estudiante{
@@ -764,7 +763,7 @@ body{
         
 
      .div_nom_apell input{
-        width: 37%;
+        width: 30%;
      }
 
      .apellido{
