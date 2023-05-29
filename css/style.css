@@ -732,6 +732,28 @@ body{
         margin-right: 0%;
     }
     
+     /* Section comprar ticket */
+
+     .comprar_tiquet{
+        height: 1000px;
+     }
+
+     .div_categorias{
+        flex-direction: column;
+     }
+
+     .div_nom_apell input{
+        width: 35%;
+     }
+
+     .div_cant_opci input{
+        width: 95%;
+     }
+     
+     .categoria select{
+        width: 95%;
+        margin-left: 10%;
+     }
     /* Footer */
 
     .footer{
