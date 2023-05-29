@@ -39,4 +39,4 @@ borrar.addEventListener('click', () => {
 resumen.addEventListener('click', () => {
    limpiar_canpos();
    alert('Compra reaalizada con exito');
-})
+})  

@@ -731,28 +731,53 @@ body{
         color: #98a0ad;
         margin-right: 0%;
     }
+
+    .buttons_comprar_ticket div{
+        width: 34%;
+        font-size: 12px;
+    }
     
      /* Section comprar ticket */
 
      .comprar_tiquet{
-        height: 1000px;
+        height: 900px;
      }
 
      .div_categorias{
         flex-direction: column;
+        height: 590px;
+        justify-content: space-evenly;
+        border: 1px solid red;
      }
 
+     .Estudiante{
+        height: 150px;
+     }
+     
+     .Trainee{
+        height: 150px;
+     }
+        
+     .Junior{
+        height: 150px;
+     }
+        
+
      .div_nom_apell input{
-        width: 35%;
+        width: 37%;
+     }
+
+     .apellido{
+        margin-left: 4%;
      }
 
      .div_cant_opci input{
-        width: 95%;
+        width: 20%;
      }
      
      .categoria select{
-        width: 95%;
-        margin-left: 10%;
+        width: 130%;
+        margin-right: 10%;
      }
     /* Footer */
 
